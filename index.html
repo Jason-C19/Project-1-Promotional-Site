@@ -4,58 +4,131 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>App Name</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/qck2bwd.css" />
+    <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
   </head>
 
-  <body>
-    <header class="header">
-      <h1 class="header__title">App Name</h1>
-      <p class="header__tagline">Tagline</p>
-    </header>
 
+  <body>
+  <header class="header">
+   <img
+  class="header__logo"
+  src="assets/logos/onit workmark 4.png"
+  alt="Onit logo"
+/>
+
+    <nav class="header__nav">
+      <a href="#features">Features</a>
+      <a href="#about">About</a>
+      <a href="#download">Download</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
     <section class="hero">
-      <div class="hero__video">
+      <div class="hero__content">
+        <h1 class="hero__title">App Name</h1>
+
+        <p class="hero__tagline">Tagline</p>
+
+        <p class="hero__text">
+          Short intro sentence goes here.
+        </p>
+
+        <a class="button" href="#download">Get Started</a>
+      </div>
+
+      <div class="hero__image-wrap">
+        <img
+          class="hero__image"
+          src="assets/furniture/Group 8777-2.png"
+          alt="Wooden chair"
+        />
+      </div>
+    </section>
+
+    <section class="video">
+      <h2>Promotional Video</h2>
+
+      <div class="video__placeholder">
         <p>Promo video placeholder</p>
       </div>
     </section>
 
-    <section class="features">
-      <h2>Features</h2>
-      <div class="features__grid">
-        <div class="features__item">Feature 1</div>
-        <div class="features__item">Feature 2</div>
-        <div class="features__item">Feature 3</div>
-      </div>
-    </section>
+    <section class="features" id="features">
+  <h2>Features</h2>
 
-    <section class="about">
+  <div class="features__grid">
+    <div class="features__item">
+      <p>Feature 1</p>
+    </div>
+
+    <div class="features__item">
+      <p>Feature 2</p>
+    </div>
+
+    <div class="features__item">
+      <p>Feature 3</p>
+    </div>
+  </div>
+</section>
+
+    <section class="description">
+  <div class="description__content">
+    <h2>About the App</h2>
+
+    <p>Full description</p>
+  </div>
+
+  <img
+    class="description__mascot"
+    src="assets/mascot/otto - happy 1.png"
+    alt="Otto mascot"
+  />
+</section>
+
+    <section class="about" id="about">
       <h2>Meet the Team</h2>
+
       <p>Team members and roles</p>
     </section>
 
-    <section class="description">
-      <h2>About the App</h2>
-      <p>Full description</p>
-    </section>
-
-    <section class="download">
+    <section class="download" id="download">
       <h2>Get Started</h2>
-      <button>Download</button>
+
+      <button class="button" type="button">
+        Download
+      </button>
     </section>
 
-    <section class="contact">
+    <section class="contact" id="contact">
       <h2>Contact Us</h2>
+
       <form class="contact__form">
         <input type="text" placeholder="Name" />
+
         <input type="email" placeholder="Email" />
+
         <textarea placeholder="Message"></textarea>
-        <button type="submit">Send</button>
+
+        <button class="button" type="submit">
+          Send
+        </button>
       </form>
     </section>
+  </main>
 
-    <footer class="footer">
-      <p>BCIT Student Project - 2026</p>
-    </footer>
-  </body>
+  <footer class="footer">
+    <img
+  class="footer__logo"
+  src="assets/logos/onit workmark 5.png"
+  alt="Onit wordmark"
+/>
+
+    <p>BCIT Student Project - 2026</p>
+  </footer>
+</body>
+</html>
 </html>
