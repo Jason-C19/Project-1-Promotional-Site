@@ -254,12 +254,21 @@ p {
   display: grid;
   grid-template-columns: 2fr 1fr;
   align-items: center;
-  gap: 2rem;
+  gap: 3rem;
+  padding: 5rem 4rem;
   background-color: var(--color-bg-alt);
 }
 
+.description__content {
+  max-width: 700px;
+}
+
+.description__content p {
+  line-height: 1.8;
+}
+
 .description__mascot {
-  max-width: 220px;
+  max-width: 200px;
   justify-self: center;
 }
 
