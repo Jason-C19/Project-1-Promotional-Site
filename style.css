@@ -292,6 +292,34 @@ p {
   background-color: var(--color-bg-light);
 }
 
+.about__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  max-width: 1000px;
+  margin: 2.5rem auto 0;
+}
+
+.about__member {
+  padding: 2rem;
+  border: 1px solid var(--color-primary-dark);
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 0 1rem 2rem rgba(15, 10, 10, 0.08);
+}
+
+.about__member h3 {
+  margin: 0 0 0.75rem;
+  font-family: var(--font-heading);
+  font-size: 1.75rem;
+  color: var(--color-primary-dark);
+}
+
+.about__member p {
+  margin: 0;
+  line-height: 1.6;
+}
+
 .download {
   text-align: center;
   background-color: var(--color-primary);
@@ -375,6 +403,10 @@ p {
   }
 
   .features__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about__grid {
     grid-template-columns: 1fr;
   }
 
