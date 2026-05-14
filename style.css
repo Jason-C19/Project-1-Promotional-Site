@@ -216,19 +216,20 @@ p {
 
 .video {
   text-align: center;
-  background-color: var(--color-bg-light);
+  background-color: white;
 }
 
-.video__placeholder {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  max-width: 850px;
-  min-height: 400px;
-  margin: 2rem auto 0;
-  border: 2px solid var(--color-primary-dark);
-  border-radius: 1.875rem;
-  background-color: white;
+.video__wrapper {
+  max-width: 900px;
+  margin: 2.5rem auto 0;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0 1.5rem 3rem rgba(15, 10, 10, 0.12);
+}
+
+.video__player {
+  width: 100%;
+  display: block;
 }
 
 .features {
